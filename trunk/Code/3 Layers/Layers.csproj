@@ -1,0 +1,117 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{902C0EF9-DE82-4C47-8F08-E58499E8ADCC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layers</RootNamespace>
+    <AssemblyName>Layers</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SharpCore.Collections, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator\Desktop\SharpCore.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCore.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator\Desktop\SharpCore.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCore.Objects, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator\Desktop\SharpCore.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCore.Utilities, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator\Desktop\SharpCore.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS\BIENNHAN_BUS.cs" />
+    <Compile Include="BUS\CHITIETHOADON_BUS.cs" />
+    <Compile Include="BUS\CHITIETPHIEUDATXE_BUS.cs" />
+    <Compile Include="BUS\CHITIETPHIEUXUATXE_BUS.cs" />
+    <Compile Include="BUS\CTDONDATHANG_BUS.cs" />
+    <Compile Include="BUS\CTPHIEUNHAPXE_BUS.cs" />
+    <Compile Include="BUS\DONDATHANG_BUS.cs" />
+    <Compile Include="BUS\HANGSANXUAT_BUS.cs" />
+    <Compile Include="BUS\HOADON_BUS.cs" />
+    <Compile Include="BUS\KHACHHANG_BUS.cs" />
+    <Compile Include="BUS\KIEUXE_BUS.cs" />
+    <Compile Include="BUS\LOAINHANVIEN_BUS.cs" />
+    <Compile Include="BUS\LOAIXE_BUS.cs" />
+    <Compile Include="BUS\MAUXE_BUS.cs" />
+    <Compile Include="BUS\MAU_BUS.cs" />
+    <Compile Include="BUS\NHANVIEN_BUS.cs" />
+    <Compile Include="BUS\PHIEUDATXE_BUS.cs" />
+    <Compile Include="BUS\PHIEUNHAPXE_BUS.cs" />
+    <Compile Include="BUS\PHIEUXUATXE_BUS.cs" />
+    <Compile Include="BUS\XE_BUS.cs" />
+    <Compile Include="DAO\AbstractDAO.cs" />
+    <Compile Include="DAO\BIENNHAN_DAO.cs" />
+    <Compile Include="DAO\CHITIETHOADON_DAO.cs" />
+    <Compile Include="DAO\CHITIETPHIEUDATXE_DAO.cs" />
+    <Compile Include="DAO\CHITIETPHIEUXUATXE_DAO.cs" />
+    <Compile Include="DAO\CTDONDATHANG_DAO.cs" />
+    <Compile Include="DAO\CTPHIEUNHAPXE_DAO.cs" />
+    <Compile Include="DAO\DONDATHANG_DAO.cs" />
+    <Compile Include="DAO\HANGSANXUAT_DAO.cs" />
+    <Compile Include="DAO\HOADON_DAO.cs" />
+    <Compile Include="DAO\KHACHHANG_DAO.cs" />
+    <Compile Include="DAO\KIEUXE_DAO.cs" />
+    <Compile Include="DAO\LOAINHANVIEN_DAO.cs" />
+    <Compile Include="DAO\LOAIXE_DAO.cs" />
+    <Compile Include="DAO\MAUXE_DAO.cs" />
+    <Compile Include="DAO\MAU_DAO.cs" />
+    <Compile Include="DAO\NHANVIEN_DAO.cs" />
+    <Compile Include="DAO\PHIEUDATXE_DAO.cs" />
+    <Compile Include="DAO\PHIEUNHAPXE_DAO.cs" />
+    <Compile Include="DAO\PHIEUXUATXE_DAO.cs" />
+    <Compile Include="DAO\XE_DAO.cs" />
+    <Compile Include="DTO\BIENNHAN_DTO.cs" />
+    <Compile Include="DTO\CHITIETHOADON_DTO.cs" />
+    <Compile Include="DTO\CHITIETPHIEUDATXE_DTO.cs" />
+    <Compile Include="DTO\CHITIETPHIEUXUATXE_DTO.cs" />
+    <Compile Include="DTO\CTDONDATHANG_DTO.cs" />
+    <Compile Include="DTO\CTPHIEUNHAPXE_DTO.cs" />
+    <Compile Include="DTO\DONDATHANG_DTO.cs" />
+    <Compile Include="DTO\HANGSANXUAT_DTO.cs" />
+    <Compile Include="DTO\HOADON_DTO.cs" />
+    <Compile Include="DTO\KHACHHANG_DTO.cs" />
+    <Compile Include="DTO\KIEUXE_DTO.cs" />
+    <Compile Include="DTO\LOAINHANVIEN_DTO.cs" />
+    <Compile Include="DTO\LOAIXE_DTO.cs" />
+    <Compile Include="DTO\MAUXE_DTO.cs" />
+    <Compile Include="DTO\MAU_DTO.cs" />
+    <Compile Include="DTO\NHANVIEN_DTO.cs" />
+    <Compile Include="DTO\PHIEUDATXE_DTO.cs" />
+    <Compile Include="DTO\PHIEUNHAPXE_DTO.cs" />
+    <Compile Include="DTO\PHIEUXUATXE_DTO.cs" />
+    <Compile Include="DTO\XE_DTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HelpGenProject>
+  <Project level = "1" Name = "Quan_Ly_Car_Shop" SUID = "{321681A2-C5AA-4D3D-9CE1-C5EDEE0911FA}" HUID = "{D9ED10B0-BB48-4AD6-9094-14129472F65B}"  caption = "Quan_Ly_Car_Shop"  TemplateHtmlFile = "Welcome.htm"  GeneratedHtmlFile = "Welcome.htm"  PicsSubfolderName = "images\"  Charset = "UTF-8"  CSSFullpath = "Office11.css" 
+          key="Project" 
+          icon="hlpclose" 
+          title="Quan_Ly_Car_Shop"  >
+    <Introduction level = "2"  caption = "Introduction"  TemplateHtmlFile = "Welcome.htm"  GeneratedHtmlFile = "Welcome.htm" 
+            key="Introduction" 
+            pkey="Project" 
+            nnodekey="GetStart" 
+            icon="helptopic" 
+            title="Introduction"  />
+    <GetStart level = "2"  caption = "Getting Started"  TemplateHtmlFile = "GettingStarted.htm"  GeneratedHtmlFile = "GettingStarted.htm" 
+            key="GetStart" 
+            pkey="Project" 
+            pnodekey="Introduction" 
+            nnodekey="Tutorial" 
+            icon="hlpclose" 
+            title="Getting Started"  >
+      <Install level = "3"  caption = "Installation"  TemplateHtmlFile = "Installation.htm"  GeneratedHtmlFile = "Installation.htm" 
+              key="Install" 
+              pkey="GetStart" 
+              nnodekey="StartProgram" 
+              icon="helptopic" 
+              title="Installation"  />
+      <StartProgram level = "3"  caption = "Starting the program"  TemplateHtmlFile = "StartingTheProgram.htm"  GeneratedHtmlFile = "StartingTheProgram.htm" 
+              key="StartProgram" 
+              pkey="GetStart" 
+              pnodekey="Install" 
+              icon="helptopic" 
+              title="Starting the program"  />
+    </GetStart>
+    <Tutorial level = "2"  caption = "Tutorial"  TemplateHtmlFile = "Tutorial.htm"  GeneratedHtmlFile = "Tutorial.htm" 
+            key="Tutorial" 
+            pkey="Project" 
+            pnodekey="GetStart" 
+            nnodekey="Dialogs" 
+            icon="helptopic" 
+            title="Tutorial"  />
+    <Dialogs level = "2"  caption = "Dialogs"  TemplateHtmlFile = "Dialogs.htm"  GeneratedHtmlFile = "Dialogs.htm" 
+            key="Dialogs" 
+            pkey="Project" 
+            pnodekey="Tutorial" 
+            nnodekey="Registration" 
+            icon="hlpclose" 
+            title="All Dialogs" 
+            ProcessCode="1"  >
+      <FORM level = "3"  name = "frmLogin"  type = "2"  caption = "Login form"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_frmLogin.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_frmLogin" 
+              pkey="Dialogs" 
+              nnodekey="Quan Ly Car Shop.Form_frmMain" 
+              icon="helptopic" 
+              title="Login form" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "frmMain"  type = "2"  caption = "Main form"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_frmMain.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_frmMain" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_frmLogin" 
+              nnodekey="Quan Ly Car Shop.Form_frmTimKhachHang" 
+              icon="helptopic" 
+              title="Main form" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "frmTimKhachHang"  type = "2"  caption = "Find customer form"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_frmTimKhachHang.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_frmTimKhachHang" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_frmMain" 
+              nnodekey="Quan Ly Car Shop.Form_frmTimXe" 
+              icon="helptopic" 
+              title="Find customer form" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "frmTimXe"  type = "2"  caption = "Find car form"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_frmTimXe.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_frmTimXe" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_frmTimKhachHang" 
+              nnodekey="Quan Ly Car Shop.Form_ucHoaDon" 
+              icon="helptopic" 
+              title="Find car form" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "ucHoaDon"  type = "2"  caption = "Make bill user control"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_ucHoaDon.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_ucHoaDon" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_frmTimXe" 
+              nnodekey="Quan Ly Car Shop.Form_ucPhieuDatXe" 
+              icon="helptopic" 
+              title="Make bill user control" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "ucPhieuDatXe"  type = "2"  caption = "Registration car form user control"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_ucPhieuDatXe.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_ucPhieuDatXe" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_ucHoaDon" 
+              nnodekey="Quan Ly Car Shop.Form_ucBienNhanThanhToanTheoDot" 
+              icon="helptopic" 
+              title="Registration car form user control" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "ucBienNhanThanhToanTheoDot"  type = "2"  caption = "Payable at maturity of receipt"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_ucBienNhanThanhToanTheoDot.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_ucBienNhanThanhToanTheoDot" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_ucPhieuDatXe" 
+              nnodekey="Quan Ly Car Shop.Form_ucPhieuNhapXe" 
+              icon="helptopic" 
+              title="Payable at maturity of receipt" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "ucPhieuNhapXe"  type = "2"  caption = "Storing car form user control"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_ucPhieuNhapXe.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_ucPhieuNhapXe" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_ucBienNhanThanhToanTheoDot" 
+              nnodekey="Quan Ly Car Shop.Form_ucPhieuXuatXe" 
+              icon="helptopic" 
+              title="Storing car form user control" 
+              ProcessCode="999"  />
+      <FORM level = "3"  name = "ucPhieuXuatXe"  type = "2"  caption = "Paying out car form user control"  TemplateHtmlFile = "Form.htm"  GeneratedHtmlFile = "Quan Ly Car Shop_Form_ucPhieuXuatXe.htm"  SourceProjectType = "C#"  SourceProjectName = "Quan Ly Car Shop" 
+              key="Quan Ly Car Shop.Form_ucPhieuXuatXe" 
+              pkey="Dialogs" 
+              pnodekey="Quan Ly Car Shop.Form_ucPhieuNhapXe" 
+              icon="helptopic" 
+              title="Paying out car form user control" 
+              ProcessCode="999"  />
+    </Dialogs>
+    <Registration level = "2"  caption = "Registration"  TemplateHtmlFile = "Registration.htm"  GeneratedHtmlFile = "Registration.htm" 
+            key="Registration" 
+            pkey="Project" 
+            pnodekey="Dialogs" 
+            nnodekey="Support" 
+            icon="helptopic" 
+            title="Registration"  />
+    <Support level = "2"  caption = "Support"  TemplateHtmlFile = "Support.htm"  GeneratedHtmlFile = "Support.htm" 
+            key="Support" 
+            pkey="Project" 
+            pnodekey="Registration" 
+            nnodekey="Copyright" 
+            icon="helptopic" 
+            title="Support"  />
+    <Copyright level = "2"  caption = "Copyright"  TemplateHtmlFile = "Copyright.htm"  GeneratedHtmlFile = "Copyright.htm" 
+            key="Copyright" 
+            pkey="Project" 
+            pnodekey="Support" 
+            icon="helptopic" 
+            title="Copyright"  />
+  </Project>
+<Settings>
+<Options>
+    <Option Name = "Version" Value = "5.08" />
+    <Option Name = "Application" Value = "Quan_Ly_Car_Shop" />
+    <Option Name = "Organization" Value = "Greenday" />
+    <Option Name = "Author" Value = "Administrator" />
+    <Option Name = "Copyright" Value = "" />
+    <Option Name = "Website" Value = "http:&#47;&#47;" />
+    <Option Name = "EMail" Value = "" />
+    <Option Name = "Registration" Value = "http:&#47;&#47;" />
+    <Option Name = "IdentifyBy" Value = "Caption" />
+    <Option Name = "SnapshotFormat" Value = "Jpeg" />
+    <Option Name = "BulletedControlsAndMenus" Value = "true" />
+    <Option Name = "AddHotSpots" Value = "true" />
+    <Option Name = "AssociateHelpIndex" Value = "true" />
+    <Option Name = "NoReportsScreenshots" Value = "true" />
+    <Option Name = "FolderForGeneratedHelp" Value = "{Project Location}CHM" />
+    <Option Name = "CompileHTMLHelp" Value = "true" />
+    <Option Name = "OpenHTMLHelp" Value = "false" />
+    <Option Name = "SaveApplicationChanges" Value = "true" />
+    <Option Name = "Charset" Value = "UTF&#45;8" />
+    <Option Name = "AddControlsListForMenuList" Value = "true" />
+    <Option Name = "AddControlsSectionForMenuList" Value = "true" />
+    <Option Name = "AddImageForForm" Value = "true" />
+    <Option Name = "AddHotSpotsForForm" Value = "true" />
+    <Option Name = "AddControlsListForForm" Value = "true" />
+    <Option Name = "AddControlsSectionForForm" Value = "true" />
+    <Option Name = "AddImageForReport" Value = "false" />
+    <Option Name = "AddControlsListForReport" Value = "true" />
+    <Option Name = "AddControlsSectionForReport" Value = "true" />
+    <Option Name = "SubFolderForScreenshots" Value = "images&#92;" />
+    <Option Name = "FillIndexFromAppObjectsAndControls" Value = "true" />
+    <Option Name = "Language" Value = "English" />
+    <Option Name = "AddSearchTabToHelp" Value = "true" />
+    <Option Name = "CapturePreviewAreaOnly" Value = "false" />
+    <Option Name = "OpenHTMLEditor" Value = "true" />
+    <Option Name = "SkipInvisibleControls" Value = "true" />
+    <Option Name = "InsertExternalDescriptions" Value = "false" />
+    <Option Name = "ListOfTagsToParseContentsFrom" Value = "H2" />
+    <Option Name = "SyncTOCOnHTMLPageNavigationComplete" Value = "true" />
+    <Option Name = "GenerateHelpForForms" Value = "true" />
+    <Option Name = "GenerateHelpForReports" Value = "true" />
+    <Option Name = "HelpProjectName" Value = "Quan_Ly_Car_Shop" />
+    <Option Name = "HelpProjectTitle" Value = "Quan_Ly_Car_Shop" />
+    <Option Name = "CSSFullPath" Value = "C:&#92;Program Files&#92;Help Generator&#92;Visual Studio 2005&#92;Templates&#92;Common&#92;Office11.css" />
+    <Option Name = "MakeNormalViewScreenshots" Value = "false" />
+    <Option Name = "LanguageCode" Value = "en" />
+    <Option Name = "GenerateHelpForTables" Value = "true" />
+    <Option Name = "MSWordTOCLowerHeadingLevel" Value = "2" />
+    <Option Name = "AutomatedTestModeOn" Value = "false" />
+    <Option Name = "GenerateHelpForQueries" Value = "true" />
+    <Option Name = "GenerateHelpForMacros" Value = "true" />
+    <Option Name = "UseProjectGroupAsSource" Value = "false" />
+    <Option Name = "UnattendedExecution" Value = "false" />
+</Options>
+</Settings>
+</HelpGenProject>

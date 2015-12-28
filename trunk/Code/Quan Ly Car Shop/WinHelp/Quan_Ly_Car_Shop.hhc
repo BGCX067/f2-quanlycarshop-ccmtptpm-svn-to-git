@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+<!-- Put Java help object tag here -->
+</HEAD>
+<BODY>
+<UL>
+        <LI>  <OBJECT type="text/sitemap">
+                <param name="Name" value="Quan_Ly_Car_Shop">
+                <param name="Local" value="Welcome.htm">
+                </OBJECT>
+        <UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Introduction">
+                        <param name="Local" value="Welcome.htm">
+                        </OBJECT>
+                <UL>
+                </UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Getting Started">
+                        <param name="Local" value="GettingStarted.htm">
+                        </OBJECT>
+                <UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Installation">
+                                <param name="Local" value="Installation.htm">
+                                </OBJECT>
+                        <UL>
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Starting the program">
+                                <param name="Local" value="StartingTheProgram.htm">
+                                </OBJECT>
+                        <UL>
+                        </UL>
+                </UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Tutorial">
+                        <param name="Local" value="Tutorial.htm">
+                        </OBJECT>
+                <UL>
+                </UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Dialogs">
+                        <param name="Local" value="Dialogs.htm">
+                        </OBJECT>
+                <UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Login form">
+                                <param name="Local" value="Quan Ly Car Shop_Form_frmLogin.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Main form">
+                                <param name="Local" value="Quan Ly Car Shop_Form_frmMain.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Find customer form">
+                                <param name="Local" value="Quan Ly Car Shop_Form_frmTimKhachHang.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Find car form">
+                                <param name="Local" value="Quan Ly Car Shop_Form_frmTimXe.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Make bill user control">
+                                <param name="Local" value="Quan Ly Car Shop_Form_ucHoaDon.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Registration car form user control">
+                                <param name="Local" value="Quan Ly Car Shop_Form_ucPhieuDatXe.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Payable at maturity of receipt">
+                                <param name="Local" value="Quan Ly Car Shop_Form_ucBienNhanThanhToanTheoDot.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Storing car form user control">
+                                <param name="Local" value="Quan Ly Car Shop_Form_ucPhieuNhapXe.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                        <LI>  <OBJECT type="text/sitemap">
+                                <param name="Name" value="Paying out car form user control">
+                                <param name="Local" value="Quan Ly Car Shop_Form_ucPhieuXuatXe.htm">
+                                </OBJECT>
+                        <UL>
+
+                        </UL>
+                </UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Registration">
+                        <param name="Local" value="Registration.htm">
+                        </OBJECT>
+                <UL>
+                </UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Support">
+                        <param name="Local" value="Support.htm">
+                        </OBJECT>
+                <UL>
+                </UL>
+                <LI>  <OBJECT type="text/sitemap">
+                        <param name="Name" value="Copyright">
+                        <param name="Local" value="Copyright.htm">
+                        </OBJECT>
+                <UL>
+                </UL>
+        </UL>
+</UL>
+</BODY>
+</HTML>
+

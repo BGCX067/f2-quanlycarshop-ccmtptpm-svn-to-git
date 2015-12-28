@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<!-- Sitemap 1.0 -->
+<!-- Put Java help object tag here -->
+</HEAD>
+<BODY>
+<UL>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Find car form">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_frmTimXe.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Find Customer  Form">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_frmTimKhachHang.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Há&#187;? Thá&#187;?ng Quáº&#163;n LÃ&#189; Cá&#187;&#173;a HÃ...">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_frmMain.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Login form">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_frmLogin.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Make bill user control">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_ucHoaDon.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Payable at maturity">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_ucBienNhanThanhToanTheoDot.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Paying out car form user control">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_ucPhieuXuatXe.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Registration Car User Control">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_ucPhieuDatXe.htm">
+   </OBJECT>
+   <LI> <OBJECT type="text/sitemap">
+   <param name="name" Value = "Storing car form user control">
+   <param name="Local" Value = "Quan Ly Car Shop_Form_ucPhieuNhapXe.htm">
+   </OBJECT>
+</UL>
+</BODY>
+</HTML>
+

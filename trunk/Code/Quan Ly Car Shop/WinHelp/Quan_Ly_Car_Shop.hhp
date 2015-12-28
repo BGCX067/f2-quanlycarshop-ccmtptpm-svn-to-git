@@ -1,0 +1,60 @@
+[Options]
+Binary index = No
+Compatibility = 1.1 Or later
+Compiled file = Quan_Ly_Car_Shop.chm
+Contents file = Quan_Ly_Car_Shop.hhc
+index file = Quan_Ly_Car_Shop.hhk
+Default Topic = Welcome.htm
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x409 English (United States)
+Title=Quan_Ly_Car_Shop
+[Files]
+Copyright.htm
+Dialogs.htm
+GettingStarted.htm
+Installation.htm
+Quan Ly Car Shop_Form_frmLogin.htm
+Quan Ly Car Shop_Form_frmMain.htm
+Quan Ly Car Shop_Form_frmTimKhachHang.htm
+Quan Ly Car Shop_Form_frmTimXe.htm
+Quan Ly Car Shop_Form_ucBienNhanThanhToanTheoDot.htm
+Quan Ly Car Shop_Form_ucHoaDon.htm
+Quan Ly Car Shop_Form_ucPhieuDatXe.htm
+Quan Ly Car Shop_Form_ucPhieuNhapXe.htm
+Quan Ly Car Shop_Form_ucPhieuXuatXe.htm
+Quan_Ly_Car_ShopTOC.htm
+Registration.htm
+ss.html
+StartingTheProgram.htm
+Support.htm
+Tutorial.htm
+Welcome.htm
+
+[ALIAS]
+IDH_Copyright=Copyright.htm
+IDH_Dialogs=Dialogs.htm
+IDH_GettingStarted=GettingStarted.htm
+IDH_Installation=Installation.htm
+IDH_Quan Ly Car Shop_Form_frmLogin=Quan Ly Car Shop_Form_frmLogin.htm
+IDH_Quan Ly Car Shop_Form_frmMain=Quan Ly Car Shop_Form_frmMain.htm
+IDH_Quan Ly Car Shop_Form_frmTimKhachHang=Quan Ly Car Shop_Form_frmTimKhachHang.htm
+IDH_Quan Ly Car Shop_Form_frmTimXe=Quan Ly Car Shop_Form_frmTimXe.htm
+IDH_Quan Ly Car Shop_Form_ucBienNhanThanhToanTheoDot=Quan Ly Car Shop_Form_ucBienNhanThanhToanTheoDot.htm
+IDH_Quan Ly Car Shop_Form_ucHoaDon=Quan Ly Car Shop_Form_ucHoaDon.htm
+IDH_Quan Ly Car Shop_Form_ucPhieuDatXe=Quan Ly Car Shop_Form_ucPhieuDatXe.htm
+IDH_Quan Ly Car Shop_Form_ucPhieuNhapXe=Quan Ly Car Shop_Form_ucPhieuNhapXe.htm
+IDH_Quan Ly Car Shop_Form_ucPhieuXuatXe=Quan Ly Car Shop_Form_ucPhieuXuatXe.htm
+IDH_Quan_Ly_Car_ShopTOC=Quan_Ly_Car_ShopTOC.htm
+IDH_Registration=Registration.htm
+IDH_ss=ss.html
+IDH_StartingTheProgram=StartingTheProgram.htm
+IDH_Support=Support.htm
+IDH_Tutorial=Tutorial.htm
+IDH_Welcome=Welcome.htm
+
+[MAP]
+#include Quan_Ly_Car_Shop.h
+[TEXT POPUPS]
+#include Quan_Ly_Car_Shop.h
+#include Quan_Ly_Car_Shop.txt

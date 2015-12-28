@@ -1,0 +1,13 @@
+bin\Debug\Layers.dll
+bin\Debug\Layers.pdb
+bin\Debug\SharpCore.Collections.dll
+bin\Debug\SharpCore.Data.dll
+bin\Debug\SharpCore.Objects.dll
+bin\Debug\SharpCore.Utilities.dll
+bin\Debug\SharpCore.Data.pdb
+bin\Debug\SharpCore.Collections.pdb
+bin\Debug\SharpCore.Objects.pdb
+bin\Debug\SharpCore.Utilities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Layers.dll
+obj\Debug\Layers.pdb
